@@ -2,7 +2,7 @@
 
 complex_modifications for Karabiner-Elements by mizkich.
 
-http://mizkich.com/KE-complex_modifications/
+<https://mizkich.github.io/KE-complex_modifications/>
 
 ## Update docs
 
