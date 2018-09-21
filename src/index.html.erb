@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Karabiner-Elements complex_modifications rules by rcmdnk</title>
+    <title>Karabiner-Elements complex_modifications rules by mizkich</title>
     <link href="assets/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
   </head>
@@ -12,14 +12,14 @@
     <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="//rcmdnk.com/KE-complex_modifications/">Karabiner-Elements complex_modifications rules by rcmdnk</a>
+          <a class="navbar-brand" href="//mizkich.github.io/KE-complex_modifications/">Karabiner-Elements complex_modifications rules by mizkich</a>
         </div>
       </div>
     </nav>
 
     <div class="container" style="margin-bottom: 100px">
       <div class="text-right" style="margin-bottom: 30px">
-        <a href="//github.com/rcmdnk/KE-complex_modifications/">GitHub</a>
+        <a href="//github.com/mizkich/KE-complex_modifications/">GitHub</a>
       </div>
 
       <%
@@ -27,15 +27,8 @@
           $groups = ""
 
           # id must be different from file name
-          add_group("Vim emulation","vim_emulation",[
-              "vim_emu.json"
-          ])
-
-          add_group("Sticky Example","sticky_example",[
-              "sticky.json"
-          ])
-
           add_group("Personal Settings","personal_settings",[
+              "personal_mizkich.json",
               "personal_rcmdnk.json"
           ])
 

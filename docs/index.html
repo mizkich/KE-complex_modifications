@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Karabiner-Elements complex_modifications rules by rcmdnk</title>
+    <title>Karabiner-Elements complex_modifications rules by mizkich</title>
     <link href="assets/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
   </head>
@@ -12,99 +12,37 @@
     <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="//rcmdnk.com/KE-complex_modifications/">Karabiner-Elements complex_modifications rules by rcmdnk</a>
+          <a class="navbar-brand" href="//mizkich.github.io/KE-complex_modifications/">Karabiner-Elements complex_modifications rules by mizkich</a>
         </div>
       </div>
     </nav>
 
     <div class="container" style="margin-bottom: 100px">
       <div class="text-right" style="margin-bottom: 30px">
-        <a href="//github.com/rcmdnk/KE-complex_modifications/">GitHub</a>
+        <a href="//github.com/mizkich/KE-complex_modifications/">GitHub</a>
       </div>
 
       
 
-      <ul class="toc list-group"><li class="list-group-item list-group-item-info">Table of Contents</li><li class="list-group-item"><span class="badge">1</span><a href="#vim_emulation">Vim emulation</a></li><li class="list-group-item"><span class="badge">1</span><a href="#sticky_example">Sticky Example</a></li><li class="list-group-item"><span class="badge">1</span><a href="#personal_settings">Personal Settings</a></li></ul>
+      <ul class="toc list-group"><li class="list-group-item list-group-item-info">Table of Contents</li><li class="list-group-item"><span class="badge">2</span><a href="#personal_settings">Personal Settings</a></li></ul>
       <div class="text-left" style="margin-bottom: 30px">
         <a href="javascript:$('.collapse').collapse('show')">Expand All</a> |
         <a href="javascript:$('.collapse').collapse('hide')">Collapse All</a>
       </div>
 
-            <div class="panel panel-primary" id="vim_emulation">
+            <div class="panel panel-primary" id="personal_settings">
         <div class="panel-heading">
-          <h3 class="panel-title">Vim emulation</h3>
+          <h3 class="panel-title">Personal Settings</h3>
         </div>
         <div class="panel-body">
               <div class="panel panel-default">
       <div class="panel-heading">
-        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#vim_emu" aria-expanded="false" aria-controls="vim_emu">Vim emulation</a>
-        <a class="btn btn-primary btn-sm pull-right" data-json-path="json/vim_emu.json">Import</a>
+        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#personal_mizkich" aria-expanded="false" aria-controls="personal_mizkich">Personal rules (@mizkich)</a>
+        <a class="btn btn-primary btn-sm pull-right" data-json-path="json/personal_mizkich.json">Import</a>
       </div>
-      <div class="list-group collapse" id="vim_emu">
+      <div class="list-group collapse" id="personal_mizkich">
           <div class="list-group-item"><p style="margin-top: 20px; font-weight: bold">
-  Vim emulation: ESC to enter normal mode
-</p>
-
-
-
-
-<p style="margin-top: 20px; font-weight: bold">
-  Vim emulation: Ctrl-[ to enter normal mode
-</p>
-
-
-
-
-<p style="margin-top: 20px; font-weight: bold">
-  Vim emulation: Simultaneous jk to toggle normal-insert mode
-</p>
-
-
-
-
-<p style="margin-top: 20px; font-weight: bold">
-  Vim emulation: Simultaneous sd to toggle normal-insert mode
-</p>
-
-
-
-
-<p style="margin-top: 20px; font-weight: bold">
-  Vim emulation: Right shift double tap to toggle normal-insert mode
-</p>
-
-
-
-
-<p style="margin-top: 20px; font-weight: bold">
-  Vim emulation: Vim emulation core part
-</p>
-
-<ul>
-  <li><a href="https://github.com/rcmdnk/KE-complex_modifications/blob/master/docs/vim_emu.md">Details of Vim emulation</a></li>
-</ul>
-
-
-
-</div>
-      </div>
-    </div>
-
-        </div>
-      </div>
-      <div class="panel panel-primary" id="sticky_example">
-        <div class="panel-heading">
-          <h3 class="panel-title">Sticky Example</h3>
-        </div>
-        <div class="panel-body">
-              <div class="panel panel-default">
-      <div class="panel-heading">
-        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#sticky" aria-expanded="false" aria-controls="sticky">sticky</a>
-        <a class="btn btn-primary btn-sm pull-right" data-json-path="json/sticky.json">Import</a>
-      </div>
-      <div class="list-group collapse" id="sticky">
-          <div class="list-group-item"><p style="margin-top: 20px; font-weight: bold">
-  sticky semicolon - shift modifier
+  Ctrl+bを押したときに、escキーと英数を割り込みで入力する。
 </p>
 
 
@@ -112,131 +50,15 @@
 <table class="table">
   <captions>Key bindings</captions>
   <tr>
-    <td>semicolon</td>
-    <td>set_variable: {"name"=>"sticky_semicolon", "value"=>1}</td>
-  </tr>
-  <tr>
-    <td>a</td>
-    <td>shift-a, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>b</td>
-    <td>shift-b, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>c</td>
-    <td>shift-c, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>d</td>
-    <td>shift-d, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>e</td>
-    <td>shift-e, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>f</td>
-    <td>shift-f, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>g</td>
-    <td>shift-g, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>h</td>
-    <td>shift-h, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>i</td>
-    <td>shift-i, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>j</td>
-    <td>shift-j, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>k</td>
-    <td>shift-k, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>l</td>
-    <td>shift-l, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>m</td>
-    <td>shift-m, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>n</td>
-    <td>shift-n, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>o</td>
-    <td>shift-o, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>p</td>
-    <td>shift-p, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>q</td>
-    <td>shift-q, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>r</td>
-    <td>shift-r, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>s</td>
-    <td>shift-s, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>t</td>
-    <td>shift-t, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>u</td>
-    <td>shift-u, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>v</td>
-    <td>shift-v, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>w</td>
-    <td>shift-w, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>x</td>
-    <td>shift-x, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>y</td>
-    <td>shift-y, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td>z</td>
-    <td>shift-z, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>vk_none, set_variable: {"name"=>"sticky_semicolon", "value"=>0}</td>
+    <td>control-b</td>
+    <td>escape, japanese_eisuu, control-b</td>
   </tr>
 </table>
 
 </div>
       </div>
     </div>
-
-        </div>
-      </div>
-      <div class="panel panel-primary" id="personal_settings">
-        <div class="panel-heading">
-          <h3 class="panel-title">Personal Settings</h3>
-        </div>
-        <div class="panel-body">
-              <div class="panel panel-default">
+    <div class="panel panel-default">
       <div class="panel-heading">
         <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#personal_rcmdnk" aria-expanded="false" aria-controls="personal_rcmdnk">Personal rules (@rcmdnk)</a>
         <a class="btn btn-primary btn-sm pull-right" data-json-path="json/personal_rcmdnk.json">Import</a>

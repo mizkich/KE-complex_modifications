@@ -1,8 +1,8 @@
 # KE-complex_modifications
 
-complex_modifications for Karabiner-Elements by rcmdnk.
+complex_modifications for Karabiner-Elements by mizkich.
 
-http://rcmdnk.com/KE-complex_modifications/
+http://mizkich.com/KE-complex_modifications/
 
 ## Update docs
 

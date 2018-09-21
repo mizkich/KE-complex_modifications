@@ -1,0 +1,37 @@
+{
+  "title": "Personal rules (@mizkich)",
+  "rule_list": false,
+  "make_extra_description": true,
+  "rules": [
+    {
+      "description": "Ctrl+bを押したときに、escキーと英数を割り込みで入力する。",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "b",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            },
+            {
+              "key_code": "japanese_eisuu"
+            },
+            {
+              "key_code": "b",
+              "modifiers": [
+                "control"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
